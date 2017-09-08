@@ -27,6 +27,8 @@ html, body, .map-container{
     flex: none;
     margin: auto;
     margin: 0 !important;
+    background: #45759A;
+    color: white;
 }
 
 .btn-holder{
@@ -35,6 +37,12 @@ html, body, .map-container{
 
 .header-btn{
     margin: 0 10px;        
+}
+
+.btn{
+    border-radius: 0px !important;
+    background-color: #45759A !important;
+    color: #fff !important;
 }
 
 .header-title{
@@ -50,8 +58,8 @@ html, body, .map-container{
     display: flex;
 }
 
-.inactive{
-    color: #d3d3d3 !important;
+.active{
+    background: #efefef !important;
 }
 
 .leg{
