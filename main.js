@@ -186,7 +186,9 @@ require(['dojo/on','esri/core/Accessor',
                 // get relevant sub layer ids
                 params.layerIds = service.visibleSublayerIds;
                 // get identify task
-                var filteredservice = APP.identifyServices.filter(s => s.id == service.id)[0]
+                var filteredservice = APP.identifyServices.filter(function(s) {
+                    return s.id == service.id                    
+                })[0];
                 // execute identify
                 if (filteredservice !== undefined){
                     filteredservice.task.execute(params).then(function(response) {
