@@ -309,7 +309,7 @@ require(['dojo/on','esri/core/Accessor',
                         layerList.append('<li role="separator" class="divider"></li>')
                         layerList.append('<li id="layers-item' + id + '" style="margin: 10px; color: #fff;"><a class="layername ' + className + '" id="' + id + '" href="#">FEMA Flooding</a></li>')
                         break;
-                    case 'GER Landslides and Landforms WGS84':
+                    case 'Geology/WADNR_Landslide':
                         layerList.append('<li role="separator" class="divider"></li>')
                         layerList.append('<li id="layers-item' + id + '" style="margin: 10px; color: #fff;"><a class="layername ' + className + '" id="' + id + '" href="#">DNR Landslides</a></li>')
                         break;
