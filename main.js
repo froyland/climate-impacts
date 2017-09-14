@@ -90,7 +90,8 @@ require(['dojo/on','esri/core/Accessor',
         })
 
         var landslide = new MapImageLayer({
-            url: 'https://fortress.wa.gov/dnr/arcgisext/weba_ext_prod3/rest/services/Geology/GER_Landslides_and_Landforms_WGS84/MapServer',
+            url: 'https://fortress.wa.gov/dnr/arcgisext//weba_ext_prod3/rest/services/Geology/WADNR_Landslide/MapServer',
+            //url: 'https://fortress.wa.gov/dnr/arcgisext/weba_ext_prod3/rest/services/Geology/GER_Landslides_and_Landforms_WGS84/MapServer',
             id: 9,
             visible: false
         })
